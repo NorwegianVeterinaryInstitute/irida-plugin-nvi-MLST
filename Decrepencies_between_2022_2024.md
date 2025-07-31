@@ -154,4 +154,12 @@
 | ypseudotuberculosis    |                       | ypseudotuberculosis    |
 | yruckeri               |                       |                        |
 
+## Shows the species-schemes and number of alleles 
+
+| Species-scheme             | 2022  | 2025  |
+|----------------------------|-------|-------|
+| ecoli                     | 2115  | 7978  |
+| ecoli_2/ecoli_4           | 922   | 16243 |
+| lmonocytogenes/listeria_2 | 1438  | 3286  |
+| senterica/senterica_2     | 4737  | 11158 |
 
