@@ -1,7 +1,7 @@
 
 ## Differences between the PubMLST 2022 and 2025 updates 
 
-| PubMLST 2022            | PubMLST 2025             | new ones               |
+| PubMLST 2025            | PubMLST 2022             | new ones               |
 |-------------------------|--------------------------|------------------------|
 | aactinomycetemcomitans | abaumannii               | aactinomycetemcomitans |
 | abaumannii             | abaumannii_2             |                        |
