@@ -158,8 +158,41 @@
 
 | Species-scheme             | 2022  | 2025  |
 |----------------------------|-------|-------|
-| ecoli                     | 2115  | 7978  |
+| ecoli                     | 7978  | 2115  |
 | ecoli_2/ecoli_4           | 922   | 16243 |
 | lmonocytogenes/listeria_2 | 1438  | 3286  |
 | senterica/senterica_2     | 4737  | 11158 |
+
+
+```
+[galaxy@galaxy ~]$ head  /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst/ecoli/ecoli.txt
+
+ST	dinB	icdA	pabB	polB	putP	trpA	trpB	uidA
+1	1	1	2	1	1	2	3	1
+2	8	2	7	3	7	1	4	2
+3	3	8	5	11	8	3	5	3
+4	2	4	6	4	1	6	1	1
+5	5	3	3	10	5	8	2	5
+6	1	7	1	9	2	20	1	6
+7	6	6	4	2	6	7	2	4
+8	23	9	8	12	9	11	7	13
+9	9	20	15	7	4	9	6	9
+[galaxy@galaxy ~]$
+
+### Older version
+
+[galaxy@galaxy ~]$ head  /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst_OLD/ecoli/ecoli.txt
+
+ST	adk	fumC	gyrB	icd	mdh	purA	recA	clonal_complex
+1	4	2	2	4	4	4	4
+2	5	3	2	6	5	5	4
+3	6	4	3	7	7	7	6
+4	6	5	4	8	8	8	2
+5	7	6	5	9	9	8	2
+6	8	7	1	1	10	8	6
+7	9	8	5	1	11	8	7
+8	10	9	5	10	12	9	2
+9	6	4	3	7	7	7	8
+```
+
 
