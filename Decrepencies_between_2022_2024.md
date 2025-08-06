@@ -164,6 +164,34 @@
 | senterica/senterica_2     | 4737  | 11158 |
 
 
+## Ecoli 
+
+```
+[galaxy@galaxy ~]$ ls -lh /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst/ecoli/
+total 1.6M
+-rw-r--r--. 1 galaxy galaxy 143K Mar 28 14:07 dinB.tfa
+-rw-r--r--. 1 galaxy galaxy  56K Mar 28 14:07 ecoli.txt
+-rw-r--r--. 1 galaxy galaxy 272K Mar 28 14:07 icdA.tfa
+-rw-r--r--. 1 galaxy galaxy 142K Mar 28 14:07 pabB.tfa
+-rw-r--r--. 1 galaxy galaxy 154K Mar 28 14:07 polB.tfa
+-rw-r--r--. 1 galaxy galaxy 157K Mar 28 14:07 putP.tfa
+-rw-r--r--. 1 galaxy galaxy 213K Mar 28 14:07 trpA.tfa
+-rw-r--r--. 1 galaxy galaxy 199K Mar 28 14:07 trpB.tfa
+-rw-r--r--. 1 galaxy galaxy 230K Mar 28 14:07 uidA.tfa
+[galaxy@galaxy ~]$
+[galaxy@galaxy ~]$ ls -lh /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst_OLD/ecoli/
+total 2.8M
+-rw-rw-r--. 1 galaxy galaxy 373K Dec 12  2018 adk.tfa
+-rw-rw-r--. 1 galaxy galaxy 197K Dec 12  2018 ecoli.txt
+-rw-rw-r--. 1 galaxy galaxy 521K Dec 12  2018 fumC.tfa
+-rw-rw-r--. 1 galaxy galaxy 316K Dec 12  2018 gyrB.tfa
+-rw-rw-r--. 1 galaxy galaxy 482K Dec 12  2018 icd.tfa
+-rw-rw-r--. 1 galaxy galaxy 313K Dec 12  2018 mdh.tfa
+-rw-rw-r--. 1 galaxy galaxy 304K Dec 12  2018 purA.tfa
+-rw-rw-r--. 1 galaxy galaxy 286K Dec 12  2018 recA.tfa
+[galaxy@galaxy ~]$
+```
+
 ```
 [galaxy@galaxy ~]$ head  /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst/ecoli/ecoli.txt
 
@@ -194,5 +222,7 @@ ST	adk	fumC	gyrB	icd	mdh	purA	recA	clonal_complex
 8	10	9	5	10	12	9	2
 9	6	4	3	7	7	7	8
 ```
+
+
 
 
