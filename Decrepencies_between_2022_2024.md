@@ -167,6 +167,8 @@
 ## Ecoli 
 
 ```
+## PubMLST 2025
+
 [galaxy@galaxy ~]$ ls -lh /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst/ecoli/
 total 1.6M
 -rw-r--r--. 1 galaxy galaxy 143K Mar 28 14:07 dinB.tfa
@@ -178,7 +180,9 @@ total 1.6M
 -rw-r--r--. 1 galaxy galaxy 213K Mar 28 14:07 trpA.tfa
 -rw-r--r--. 1 galaxy galaxy 199K Mar 28 14:07 trpB.tfa
 -rw-r--r--. 1 galaxy galaxy 230K Mar 28 14:07 uidA.tfa
-[galaxy@galaxy ~]$
+
+## PubMLST 2022
+
 [galaxy@galaxy ~]$ ls -lh /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst_OLD/ecoli/
 total 2.8M
 -rw-rw-r--. 1 galaxy galaxy 373K Dec 12  2018 adk.tfa
@@ -189,10 +193,10 @@ total 2.8M
 -rw-rw-r--. 1 galaxy galaxy 313K Dec 12  2018 mdh.tfa
 -rw-rw-r--. 1 galaxy galaxy 304K Dec 12  2018 purA.tfa
 -rw-rw-r--. 1 galaxy galaxy 286K Dec 12  2018 recA.tfa
-[galaxy@galaxy ~]$
 ```
 
 ```
+## PubMLST 2025
 [galaxy@galaxy ~]$ head  /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst/ecoli/ecoli.txt
 
 ST	dinB	icdA	pabB	polB	putP	trpA	trpB	uidA
@@ -207,7 +211,7 @@ ST	dinB	icdA	pabB	polB	putP	trpA	trpB	uidA
 9	9	20	15	7	4	9	6	9
 [galaxy@galaxy ~]$
 
-### Older version
+## PubMLST 2022
 
 [galaxy@galaxy ~]$ head  /opt/galaxy/21.09/database/dependencies/_conda/envs/__mlst@2.16.1/db/pubmlst_OLD/ecoli/ecoli.txt
 
