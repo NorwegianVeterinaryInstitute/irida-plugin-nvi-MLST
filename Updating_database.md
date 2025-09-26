@@ -1,6 +1,10 @@
 ## Last updated 
 28th March 2025
 
+### IMPORTANT: 
+Updating the MLST database DOES NOT update the values in the dropdown menu in the MLST tool. We need to modify the values in the dropdown menu. 
+
+
 ## Procedure followed
 
 Here is the document/manual I followed to update the DB
@@ -43,6 +47,7 @@ Login to VIGASP-Galaxy VM.
 Updated DB contains two schemes for Ecoli (ecoli and ecoli_4)
 Ecoli4 corresponds to Achtman 
 Ecoli corresponds to Pasteur 
+
 
 
 
